@@ -35,7 +35,7 @@ const UsersList = ()=>{
                                     <td><img src={user.avatar} alt="img"/></td>
                                 </tr>
                             ))
-                        ):(<tr><td colSpan={4}>No data found to display</td></tr>)
+                        ):(<tr><td colSpan={4}>No data found to display.</td></tr>)
                     }
                 </tbody>
                  
